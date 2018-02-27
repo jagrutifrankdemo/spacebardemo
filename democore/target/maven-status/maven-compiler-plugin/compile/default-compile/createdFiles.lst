@@ -1,0 +1,4 @@
+com\frank\core\dto\User.class
+com\frank\core\dto\UserMaxGamesPlayed.class
+com\frank\core\dto\UserAudit.class
+com\frank\core\dto\Game.class
