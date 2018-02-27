@@ -1,0 +1,26 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "userName": {
+      "$id": "/properties/userName",
+      "type": "string",
+      "title": "The Username Schema",
+      "default": "",
+      "examples": [
+        "test"
+      ]
+    },
+    "numbergamesplayed": {
+      "$id": "/properties/numbergamesplayed",
+      "type": "integer",
+      "title": "The Numbergamesplayed Schema",
+      "default": 0,
+      "examples": [
+        "test"
+      ]
+    }
+  }
+}
