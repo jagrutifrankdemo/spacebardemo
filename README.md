@@ -2,8 +2,8 @@
 spacebardemo
 
 spring boot project
-implemented mechanism for Redis cache. JPA (with views) , entity manager (sql with between criteria) to query mysql database
-Spring security-basic htttp 
+---implemented mechanism for Redis cache. JPA (with views) , entity manager (sql with between criteria) to query mysql database
+--Spring security-basic htttp 
 
 
 unit test for controller using mockito
