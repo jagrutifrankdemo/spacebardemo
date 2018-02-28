@@ -38,4 +38,4 @@ Currently the date filters are hardcoded it can be fetched via POSTbody
 two function are there one function is used for query'ing the User played Max number via view whereas other is via sql query in service
 
 Please find git URL
-https://github.com/jagrutifrankdemo/spacebardemo​
+https://github.com/jagrutifrankdemo/spacebardemo/branches
