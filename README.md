@@ -28,6 +28,8 @@ For testing 2 different framework has been used
 --Integration test is via running the endpoint and hitting the same for correctness of object 
 
 -- Future enhancement : is the remove the service layer out of the project ( similar to to demo core)
+-- Add in rabbit mq ( so when something persisit it generates the message in queue
+--Create another spring boot project to listen to event and processthose messages
 
 --also I have attached database schema for JPA repository​/ database dump on  branch
 
