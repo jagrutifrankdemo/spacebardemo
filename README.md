@@ -12,8 +12,10 @@ integration test using cucumber( this needs to be seperate project
 
 Project is divided into two modules ( two seperate brances)
   Projects:
-Spring-boot-demo-core à this is the core library for the project. It consist of DTO’s ( data transfer object/ models required for multiple projects- micro services)
-Spring-boot-demo- frank ( it has redis model, repository )
+---Spring-boot-demo-core à this is the core library for the project. It consist of DTO’s ( data transfer object/ models required for multiple projects- micro services)
+
+
+--Spring-boot-demo- frank ( it has redis model, repository )
 
  
 
@@ -22,12 +24,12 @@ For testing 2 different framework has been used
 1)      Cucumber for integration test ( test need the spring boot project running)- this has to be seperate project
 2)      Unit testing is done by mockito ( by mocking up the service)
 
-Unit test is  for controller via  mockito
-Integration test is via running the endpoint and hitting the same for correctness of object 
+---Unit test is  for controller via  mockito
+--Integration test is via running the endpoint and hitting the same for correctness of object 
 
-Future enhancement : is the remove the service layer out of the project ( similar to to demo core)
+-- Future enhancement : is the remove the service layer out of the project ( similar to to demo core)
 
-also I have attached database schema for JPA repository​/ database dump on  branch
+--also I have attached database schema for JPA repository​/ database dump on  branch
 
 
 Currently the date filters are hardcoded it can be fetched via POSTbody
